@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "ng-meta": "apps/ng-meta",
-    "ng-meta-e2e": "apps/ng-meta-e2e"
+    "ng-meta-e2e": "apps/ng-meta-e2e",
+    "portfolio": "apps/portfolio"
   }
 }

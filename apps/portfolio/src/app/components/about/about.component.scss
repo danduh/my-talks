@@ -1,0 +1,21 @@
+:host{
+  width: 82%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper{
+  display: flex;
+  flex-direction: row;
+}
+.head-image{
+  width: 300px;
+}
+article{
+  padding-left: 4rem;
+  padding-right: 3rem;
+  padding-top: 4rem;
+}
+.event-card{
+  width: 200px
+}
