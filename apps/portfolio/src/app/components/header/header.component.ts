@@ -9,4 +9,7 @@ export class HeaderComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+  clickMethod(){
+    // console.log("Clicked");
+  }
 }

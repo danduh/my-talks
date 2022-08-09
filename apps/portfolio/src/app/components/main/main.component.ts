@@ -1,12 +1,41 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
+import { Service } from "../../shared/service";
+import { map, Observable, shareReplay } from "rxjs";
+import { Video } from "../../types/videos";
+import { BreakpointObserver, Breakpoints } from "@angular/cdk/layout";
 
 @Component({
-  selector: 'my-talks-main',
-  templateUrl: './main.component.html',
-  styleUrls: ['./main.component.scss'],
+  selector: "my-talks-main",
+  templateUrl: "./main.component.html",
+  styleUrls: [ "./main.component.scss" ],
 })
 export class MainComponent implements OnInit {
-  constructor() {}
+  cols$: Observable<number> = this.breakpointObserver
+    .observe([ Breakpoints.Small, Breakpoints.XSmall ])
+    .pipe(
+      map((result) => {
+        if (result.breakpoints[Breakpoints.XSmall]) {
+          return 1;
+        } else if (result.breakpoints[Breakpoints.Small]) {
+          return 2;
+        } else {
+          return 3;
+        }
+      }),
+      shareReplay()
+    );
 
-  ngOnInit(): void {}
+  videos!: Observable<Video[]>
+  upcomingVideos!: Observable<Video[]>
+  blogs!: Observable<Video[]>
+
+  constructor(private service: Service,
+              private breakpointObserver: BreakpointObserver){
+  }
+
+  ngOnInit(): void{
+    this.videos = this.service.getVideos()
+    this.upcomingVideos = this.service.getUpcoming()
+    this.blogs = this.service.getVideos()
+  }
 }

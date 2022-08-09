@@ -6,7 +6,9 @@
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
-    "postinstall": "ngcc --properties es2020 browser module main"
+    "postinstall": "ngcc --properties es2020 browser module main",
+    "dev:sls": "ng build -c development && ng run ngx-serverless-starter:serverless -c development && npm run serve:sls",
+    "serve:sls": "serverless offline start --noPrependStageInUrl"
   },
   "private": true,
   "dependencies": {
@@ -19,9 +21,16 @@
     "@angular/material": "^14.0.5",
     "@angular/platform-browser": "14.0.6",
     "@angular/platform-browser-dynamic": "14.0.6",
+    "@angular/platform-server": "14.0.6",
     "@angular/router": "14.0.6",
+    "@nguniversal/express-engine": "^14.0.3",
     "@nrwl/angular": "14.4.3",
+    "aws-serverless-express": "^3.4.0",
     "rxjs": "~7.4.0",
+    "serverless": "^3.21.0",
+    "serverless-apigw-binary": "^0.4.4",
+    "serverless-express": "^2.0.12",
+    "serverless-offline": "^9.1.7",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"
   },
@@ -33,6 +42,7 @@
     "@angular/cli": "~14.0.0",
     "@angular/compiler-cli": "14.0.6",
     "@angular/language-service": "14.0.6",
+    "@nguniversal/builders": "^14.0.3",
     "@nrwl/cli": "14.1.9",
     "@nrwl/cypress": "14.4.3",
     "@nrwl/eslint-plugin-nx": "14.4.3",

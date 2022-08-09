@@ -1,12 +1,41 @@
 {
+  "upcomming": [
+    {
+      "title": "Metaprogramming From 0 to 100",
+      "url": "https://www.youtube.com/watch?v=NJdyVmmqvGw",
+      "thumbnail": "https://img.youtube.com/vi/NJdyVmmqvGw/maxresdefault.jpg",
+      "events": [
+        {
+          "eventName": "NG-Conf 2022",
+          "date": "03 September 2022",
+          "location": "Salt Lake City, Utah"
+        }
+      ],
+      "language": "English",
+      "tags": [
+        "angular",
+        "typescript",
+        "metaprogramming"
+      ]
+    }
+  ],
   "videos": [
     {
       "title": "TypeScript Metaprogramming",
       "url": "https://www.youtube.com/watch?v=NJdyVmmqvGw",
       "thumbnail": "https://img.youtube.com/vi/NJdyVmmqvGw/maxresdefault.jpg",
-      "date": "25 March 2022",
-      "eventName": "CityJs - London",
-      "country": "uk",
+      "events": [
+        {
+          "eventName": "CityJs - London",
+          "date": "25 March 2022",
+          "location": "London, UK"
+        },
+        {
+          "eventName": "Developers Week - Germany",
+          "date": "05 July 2022",
+          "location": "Germany, DE"
+        }
+      ],
       "language": "English",
       "tags": [
         "typescript",
@@ -16,10 +45,14 @@
     {
       "title": "Fall in Love With JS Decorators",
       "url": "https://www.youtube.com/watch?v=y0T9IRo-7zo&t=7524s",
-      "thumbnail": "https://img.youtube.com/vi/y0T9IRo-7zo&t=7524s/maxresdefault.jpg",
-      "date": "22 August 2020",
-      "eventName": "OdessaJS",
-      "language": "Russian",
+      "thumbnail": "https://danduh.me/assets/odessa-js.png",
+      "events": [
+        {
+          "eventName": "OdessaJS",
+          "date": "22 August 2020",
+          "location": "Ukraine, UA"
+        }
+      ],
       "country": "ua",
       "tags": [
         "typescript",
@@ -31,24 +64,19 @@
       "title": "FrontEnd + DevOps = ❤️ ",
       "url": "https://youtu.be/syI0ve6k0VE",
       "thumbnail": "https://img.youtube.com/vi/syI0ve6k0VE/default.jpg",
-      "date": "27 March 2020",
-      "eventName": "MeetUp",
+      "events": [
+        {
+          "date": "27 March 2020",
+          "eventName": "MeetUp",
+          "location": "Israel, IL"
+        },
+        {
+          "date": "07 Fev 2020",
+          "eventName": "MeetUp",
+          "location": "Israel, IL"
+        }
+      ],
       "language": "Hebrew",
-      "country": "il",
-      "tags": [
-        "devops",
-        "web development",
-        "dockers"
-      ]
-    },
-    {
-      "title": "Web Development meets DevOps.",
-      "url": "https://youtu.be/s25Og6haazs",
-      "thumbnail": "https://img.youtube.com/vi/s25Og6haazs/maxresdefault.jpg",
-      "date": "07 Fev 2020",
-      "eventName": "MeetUp",
-      "language": "Hebrew",
-      "country": "il",
       "tags": [
         "devops",
         "web development",

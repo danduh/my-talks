@@ -1,4 +1,27 @@
-<p>main works!</p>
 <my-talks-about></my-talks-about>
-<my-talks-talks></my-talks-talks>
-<my-talks-articles></my-talks-articles>
+
+<section class="cards-section" id="upcoming-event">
+  <h3>Upcoming Events</h3>
+  <mat-grid-list [cols]="cols$ | async" rowHeight="400px">
+    <mat-grid-tile *ngFor="let video of upcomingVideos | async">
+      <my-talks-talks [video]="video"></my-talks-talks>
+    </mat-grid-tile>
+  </mat-grid-list>
+</section>
+<section class="cards-section" id="past-event">
+  <h3>Past Events</h3>
+  <mat-grid-list [cols]="cols$ | async" rowHeight="400px">
+    <mat-grid-tile *ngFor="let video of videos | async">
+      <my-talks-talks [video]="video"></my-talks-talks>
+    </mat-grid-tile>
+  </mat-grid-list>
+</section>
+<section class="cards-section" id="section-blogs">
+  <h3>Blogs</h3>
+  <mat-grid-list [cols]="cols$ | async" rowHeight="400px">
+    <mat-grid-tile *ngFor="let video of videos | async">
+      <my-talks-talks [video]="video"></my-talks-talks>
+    </mat-grid-tile>
+  </mat-grid-list>
+</section>
+<!--<my-talks-articles></my-talks-articles>-->

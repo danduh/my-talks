@@ -5,9 +5,11 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
-        "outputPath": "dist/apps/portfolio",
+        "outputPath": "dist/apps/portfolio/browser",
         "index": "apps/portfolio/src/index.html",
         "main": "apps/portfolio/src/main.ts",
         "polyfills": "apps/portfolio/src/polyfills.ts",
@@ -17,7 +19,10 @@
           "apps/portfolio/src/favicon.ico",
           "apps/portfolio/src/assets"
         ],
-        "styles": ["apps/portfolio/src/styles.scss", "node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css"],
+        "styles": [
+          "apps/portfolio/src/styles.scss",
+          "node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css"
+        ],
         "scripts": []
       },
       "configurations": {
@@ -82,11 +87,53 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/portfolio"],
+      "outputs": [
+        "coverage/apps/portfolio"
+      ],
       "options": {
         "jestConfig": "apps/portfolio/jest.config.ts",
         "passWithNoTests": true
       }
+    },
+    "serve-ssr": {
+      "executor": "@nguniversal/builders:ssr-dev-server",
+      "configurations": {
+        "development": {
+          "browserTarget": "portfolio:build:development",
+          "serverTarget": "portfolio:server:development"
+        },
+        "production": {
+          "browserTarget": "portfolio:build:production",
+          "serverTarget": "portfolio:server:production"
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "server": {
+      "executor": "@angular-devkit/build-angular:server",
+      "options": {
+        "outputPath": "dist/apps/portfolio/server",
+        "main": "apps/portfolio/src/ssr.server.ts",
+        "tsConfig": "apps/portfolio/tsconfig.server.json",
+        "inlineStyleLanguage": "scss"
+      },
+      "configurations": {
+        "production": {
+          "outputHashing": "media",
+          "fileReplacements": [
+            {
+              "replace": "apps/portfolio/src/environments/environment.ts",
+              "with": "apps/portfolio/src/environments/environment.prod.ts"
+            }
+          ]
+        },
+        "development": {
+          "optimization": false,
+          "sourceMap": true,
+          "extractLicenses": false
+        }
+      },
+      "defaultConfiguration": "production"
     }
   },
   "tags": []
