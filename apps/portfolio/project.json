@@ -95,6 +95,27 @@
         "passWithNoTests": true
       }
     },
+    "build-ssr": {
+      "executor": "@nguniversal/builders:prerender",
+      "options": {
+        "browserTarget": "static-app:build:production",
+        "serverTarget": "static-app:server:production",
+        "routes": [
+          "/"
+        ]
+      },
+      "configurations": {
+        "development": {
+          "browserTarget": "portfolio:build:development",
+          "serverTarget": "portfolio:server:development"
+        },
+        "production": {
+          "browserTarget": "portfolio:build:production",
+          "serverTarget": "portfolio:server:production"
+        }
+      },
+      "defaultConfiguration": "development"
+    },
     "serve-ssr": {
       "executor": "@nguniversal/builders:ssr-dev-server",
       "configurations": {

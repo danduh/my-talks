@@ -2,26 +2,17 @@
 
 <section class="cards-section" id="upcoming-event">
   <h3>Upcoming Events</h3>
-  <mat-grid-list [cols]="cols$ | async" rowHeight="400px">
-    <mat-grid-tile *ngFor="let video of upcomingVideos | async">
-      <my-talks-talks [video]="video"></my-talks-talks>
-    </mat-grid-tile>
-  </mat-grid-list>
+  <my-talks-talks [video]="video" *ngFor="let video of upcomingVideos | async"></my-talks-talks>
 </section>
 <section class="cards-section" id="past-event">
   <h3>Past Events</h3>
-  <mat-grid-list [cols]="cols$ | async" rowHeight="400px">
-    <mat-grid-tile *ngFor="let video of videos | async">
-      <my-talks-talks [video]="video"></my-talks-talks>
-    </mat-grid-tile>
-  </mat-grid-list>
+  <my-talks-talks [video]="video" *ngFor="let video of videos | async"></my-talks-talks>
 </section>
 <section class="cards-section" id="section-blogs">
   <h3>Blogs</h3>
-  <mat-grid-list [cols]="cols$ | async" rowHeight="400px">
-    <mat-grid-tile *ngFor="let video of videos | async">
-      <my-talks-talks [video]="video"></my-talks-talks>
-    </mat-grid-tile>
-  </mat-grid-list>
+  <my-talks-talks [video]="video" *ngFor="let video of blogs | async" [isBlog]="true"></my-talks-talks>
 </section>
-<!--<my-talks-articles></my-talks-articles>-->
+<section class="cards-section" id="section-tbds">
+  <h3>TBDs</h3>
+  <my-talks-talks [video]="video" *ngFor="let video of tbds | async" [isBlog]="true"></my-talks-talks>
+</section>

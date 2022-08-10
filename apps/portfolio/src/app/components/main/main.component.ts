@@ -17,9 +17,9 @@ export class MainComponent implements OnInit {
         if (result.breakpoints[Breakpoints.XSmall]) {
           return 1;
         } else if (result.breakpoints[Breakpoints.Small]) {
-          return 2;
+          return 1;
         } else {
-          return 3;
+          return 1;
         }
       }),
       shareReplay()
@@ -28,6 +28,7 @@ export class MainComponent implements OnInit {
   videos!: Observable<Video[]>
   upcomingVideos!: Observable<Video[]>
   blogs!: Observable<Video[]>
+  tbds!: Observable<Video[]>
 
   constructor(private service: Service,
               private breakpointObserver: BreakpointObserver){
@@ -36,6 +37,7 @@ export class MainComponent implements OnInit {
   ngOnInit(): void{
     this.videos = this.service.getVideos()
     this.upcomingVideos = this.service.getUpcoming()
-    this.blogs = this.service.getVideos()
+    this.blogs = this.service.getBlogs()
+    this.tbds = this.service.getTBDs()
   }
 }

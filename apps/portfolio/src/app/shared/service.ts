@@ -20,4 +20,13 @@ export class Service {
     return this.http.get(this.baseUrl + "/assets/data.json")
       .pipe(map((data: any) => data.upcomming));
   }
+
+  getBlogs(): Observable<Video[]>{
+    return this.http.get(this.baseUrl + "/assets/data.json")
+      .pipe(map((data: any) => data.blogs));
+  }
+  getTBDs(): Observable<Video[]>{
+    return this.http.get(this.baseUrl + "/assets/data.json")
+      .pipe(map((data: any) => data.tbds));
+  }
 }

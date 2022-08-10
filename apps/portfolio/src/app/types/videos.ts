@@ -11,4 +11,5 @@ export interface Video {
   events: Event[];
   language: string;
   tags: string[];
+  description?: string;
 }

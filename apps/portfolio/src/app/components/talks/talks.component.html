@@ -3,17 +3,22 @@
     <mat-card-title>{{video.title}}</mat-card-title>
     <mat-card-subtitle>Language: {{video.language}}</mat-card-subtitle>
   </mat-card-header>
-  <div mat-card-image [ngStyle]="{'background-image': 'url(' + video.thumbnail + ')'}" >
-
-  </div>
-
   <mat-card-content>
-    <p class="mat-card-header">
-      {{video.tags}}
-    </p>
+    <div class="video-thumbnail" mat-card-image [ngStyle]="{'background-image': 'url(' + video.thumbnail + ')'}"></div>
+    <div class="video-description">
+      <p>{{ video.description }}</p>
+      <p><em *ngFor="let ev of video.events"><b>{{ev.eventName}}</b> - {{ev.location}} / </em></p>
+    </div>
   </mat-card-content>
-  <mat-card-actions>
+  <mat-chip-list class="mat-card-header">
+    <mat-chip color="primary" *ngFor="let tag of video.tags">{{tag}}</mat-chip>
+  </mat-chip-list>
+
+  <mat-card-actions *ngIf="!isBlog">
     <a [href]="video.url" target="_blank" mat-button>VIDEO</a>
     <button mat-button>SHARE</button>
+  </mat-card-actions>
+  <mat-card-actions *ngIf="isBlog">
+    <a [href]="video.url" target="_blank" mat-button>READ</a>
   </mat-card-actions>
 </mat-card>

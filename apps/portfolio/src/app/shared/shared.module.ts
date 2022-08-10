@@ -7,6 +7,7 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 import { Service } from "./service";
 import { HttpClientModule } from "@angular/common/http";
 import { MatGridListModule } from "@angular/material/grid-list";
+import { MatChipsModule } from "@angular/material/chips";
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { MatGridListModule } from "@angular/material/grid-list";
     MatCardModule,
     MatToolbarModule,
     MatGridListModule,
+    MatChipsModule,
     CommonModule
   ]
 })
