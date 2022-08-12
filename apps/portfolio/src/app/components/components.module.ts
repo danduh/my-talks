@@ -22,7 +22,8 @@ import { RouterModule } from "@angular/router";
     SocialsComponent,
 
   ],
-  imports: [ CommonModule, SharedModule, MatButtonModule,
+  imports: [
+    CommonModule, SharedModule, MatButtonModule,
     RouterModule
   ],
   exports: [ HeaderComponent, FooterComponent, MainComponent ],

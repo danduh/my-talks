@@ -8,6 +8,8 @@ import { Service } from "./service";
 import { HttpClientModule } from "@angular/common/http";
 import { MatGridListModule } from "@angular/material/grid-list";
 import { MatChipsModule } from "@angular/material/chips";
+import { FlexLayoutModule } from "@angular/flex-layout";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { MatChipsModule } from "@angular/material/chips";
     MatToolbarModule,
     MatGridListModule,
     MatChipsModule,
-    CommonModule
+    CommonModule,
+    FlexLayoutModule,
+    BrowserAnimationsModule,
   ]
 })
 export class SharedModule {

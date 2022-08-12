@@ -1,9 +1,20 @@
-<mat-toolbar>
-  <!--  <h5>Daniel Ostrovsky</h5>-->
-  <h5>Application</h5>
-  <a routerLink="." fragment='upcoming-event' mat-button>Upcoming Event</a>
-  <a routerLink="." fragment='past-event' mat-button>Past Event</a>
+<mat-menu #menu="matMenu"  fxLayout="column" fxHide.gt-sm="true">
+  <a routerLink="." fragment='upcoming-event' mat-button>Upcoming Event</a><br>
+  <a routerLink="." fragment='past-event' mat-button>Past Event</a><br>
   <a routerLink="." fragment='section-blogs' mat-button>Articles</a>
+</mat-menu>
+<mat-toolbar>
+  <div fxShow="true" fxHide.gt-sm="true">
+    <button mat-icon-button [matMenuTriggerFor]="menu" >
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
+  <h5>Application</h5>
+  <div fxShow="true" fxHide.lt-md="true">
+    <a routerLink="." fragment='upcoming-event' mat-button>Upcoming Event</a>
+    <a routerLink="." fragment='past-event' mat-button>Past Event</a>
+    <a routerLink="." fragment='section-blogs' mat-button>Articles</a>
+  </div>
   <span class="toolbar-spacer"></span>
   <my-talks-socials></my-talks-socials>
 </mat-toolbar>

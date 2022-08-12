@@ -37,6 +37,19 @@ mat-card-content {
   min-width: 270px;
 }
 
+@media(max-width: 800px)
+{
+  mat-card-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .mat-card-image {
+    flex: none;
+    max-width: 90%;
+    min-width: 90%;
+  }
+}
+
 .video-thumbnail {
   margin: 0 !important;
 }
