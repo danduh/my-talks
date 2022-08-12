@@ -22,7 +22,9 @@ aws s3 sync dist/apps/portfolio/browser/ s3://danduh-portfolio/js \
       --cache-control max-age=3600 --acl public-read
 
 # Assets
-aws s3 sync dist/apps/portfolio/browser/assets/ s3://danduh-portfolio/assets --profile danduh --acl public-read
+aws s3 sync dist/apps/portfolio/browser/assets/ s3://danduh-portfolio/assets \
+      --delete --profile danduh \
+      --cache-control max-age=3600 --acl public-read
 
 #Invalidate CF
 aws cloudfront create-invalidation \
