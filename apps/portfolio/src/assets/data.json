@@ -136,7 +136,7 @@
     {
       "title": "The flexible way to adopt UX/UI in Angular app according to user’s permissions.",
       "url": "https://medium.com/@danduh/the-flexible-way-to-adopt-ux-ui-in-angular-app-according-to-users-permissions-b5db8cf05fbe",
-      "thumbnail": "https://danduh.me/assets/angular-permissions.png",
+      "thumbnail": "https://danduh.me/assets/angular-permissions.webp",
       "description": "In many projects, there are authentication processes (more or less). A lot of “best practices” were written in all known technologies and so on, and so forth.\n\nBut what happens after the user made the login? After all, he by far cannot do everything. How to define what he can see and what not. What buttons he has the rights to click on, what to change, create and delete.",
       "events": [
         {
@@ -154,7 +154,7 @@
     {
       "title": "Metaprogramming in JavaScript/TypeScript Part #1",
       "url": "https://medium.com/@danduh/metaprogramming-javascript-typescript-part-1-descriptors-bc443d048fe9",
-      "thumbnail": "https://danduh.me/assets/ts-js.png",
+      "thumbnail": "https://danduh.me/assets/ts-js.webp",
       "description": "Metaprogramming is the entire world of programming, in latest TS versions we have set of great new features that provide low-level hooks into code mechanics.\nLet's touch the tip of the iceberg!\nWe will talk about the definition of \"Metaprogramming\": some best and some bad practices.\nAnd of course - live-coding!",
       "events": [
         {
@@ -174,7 +174,7 @@
     {
       "title": "Docker, why and how?",
       "url": "https://sessionize.com/s/danduh/docker-why-and-how/26750",
-      "thumbnail": "https://danduh.me/assets/docker.png",
+      "thumbnail": "https://danduh.me/assets/docker.webp",
       "description": "There are many great articles and talks for those who already use docker. I will appeal to those who not only do not know what docker is but are not sure whether they should know it.",
       "events": [
         {
@@ -191,7 +191,7 @@
     {
       "title": "GraphQl Federation: with big power comes huge responsibility.",
       "url": "https://sessionize.com/s/danduh/graphql-federation-with-big-power-comes-huge-respo/53487",
-      "thumbnail": "https://danduh.me/assets/graphql-fed.png",
+      "thumbnail": "https://danduh.me/assets/graphql-fed.webp",
       "description": "The main use case for GraphQl Federation is MicroService APIs Scaling. This talk is not about it. We will talk about the advantages and disadvantages you can get with this architecture.\nWe will go over a check list of things you might meet in your journey to migrate from a monolith to MicroServices with GraphQl Federation, review some OpenSource tools you’ll probably need, and set of tools you might need to create for your specific case.",
       "events": [
         {
@@ -209,7 +209,7 @@
     {
       "title": "Go down the rabbit hole with Typescript Compiler API.",
       "url": "https://sessionize.com/s/danduh/go-down-the-rabbit-hole-with-typescript-compiler-a/47694",
-      "thumbnail": "https://danduh.me/assets/ts-compiler.png",
+      "thumbnail": "https://danduh.me/assets/ts-compiler.webp",
       "description": "TypeScript has become very popular in the past few years. Many of us (developers) have a good understanding of the language except not many many of us really know how the compiler works internally. Understanding the internal mechanism of the TypeScript compiler and API will be extremely valuable if you need to improve the build pipeline, or develop custom tools.\nJoin Me On a Trip Down the Rabbit Hole to see the magic.",
       "events": [
         {

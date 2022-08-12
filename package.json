@@ -8,7 +8,8 @@
     "test": "nx test",
     "postinstall": "ngcc --properties es2020 browser module main",
     "dev:sls": "ng build -c development && ng run ngx-serverless-starter:serverless -c development && npm run serve:sls",
-    "serve:sls": "serverless offline start --noPrependStageInUrl"
+    "serve:sls": "serverless offline start --noPrependStageInUrl",
+    "imgConvert": "`for file in images/*; do cwebp -q 50 \"$file\" -o \"${file%.*}.webp\"; done`"
   },
   "private": true,
   "dependencies": {
@@ -27,6 +28,7 @@
     "@nguniversal/express-engine": "^14.0.3",
     "@nrwl/angular": "14.4.3",
     "aws-serverless-express": "^3.4.0",
+    "cwebp": "^2.0.5",
     "rxjs": "~7.4.0",
     "serverless": "^3.21.0",
     "serverless-apigw-binary": "^0.4.4",
