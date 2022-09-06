@@ -4,7 +4,7 @@
     <mat-card-subtitle>Language: {{video.language}}</mat-card-subtitle>
   </mat-card-header>
   <mat-card-content>
-    <div class="video-thumbnail" mat-card-image [ngStyle]="{'background-image': 'url(' + video.thumbnail + ')'}"></div>
+    <img class="video-thumbnail" src="{{video.thumbnail | imageUrl}}" width="201" height="120" alt="{{video.title}}">
     <div class="video-description">
       <p>{{ video.description }}</p>
       <p><em *ngFor="let ev of video.events"><b>{{ev.eventName}}</b> - {{ev.location}} / </em></p>

@@ -10,9 +10,11 @@ import { SharedModule } from "../shared/shared.module";
 import { SocialsComponent } from "./socials/socials.component";
 import { MatButtonModule } from "@angular/material/button";
 import { RouterModule } from "@angular/router";
+import { ImagePipe } from "./image.pipe";
 
 @NgModule({
   declarations: [
+    ImagePipe,
     HeaderComponent,
     AboutComponent,
     MainComponent,
