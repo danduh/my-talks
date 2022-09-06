@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@danduh/client-lib": ["libs/client-lib/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -1,9 +1,11 @@
 {
   "upcomming": [
+  ],
+  "videos": [
     {
       "title": "Metaprogramming From 0 to 100",
       "url": "https://2022.ng-conf.org/session-2/typescript-meta-programming-from-0-to-100/",
-      "thumbnail": "https://danduh.me/assets/ng-conf.png",
+      "thumbnail": "/portfolio/ng-conf.png",
       "description": "Metaprogramming is the entire world of programming, in latest TS versions we have set of great new features that provide low-level hooks into code mechanics.\nLet's touch the tip of the iceberg!\nWe will talk about the definition of \"Metaprogramming\": some best and some bad practices.\nAnd of course - live-coding!",
       "events": [
         {
@@ -18,13 +20,11 @@
         "typescript",
         "metaprogramming"
       ]
-    }
-  ],
-  "videos": [
+    },
     {
       "title": "TypeScript Metaprogramming",
       "url": "https://www.youtube.com/watch?v=NJdyVmmqvGw",
-      "thumbnail": "https://img.youtube.com/vi/NJdyVmmqvGw/maxresdefault.jpg",
+      "thumbnail": "/portfolio/city-js.jpg",
       "description": "Metaprogramming is the entire world of programming, in latest TS versions we have set of great new features that provide low-level hooks into code mechanics.\nLet's touch the tip of the iceberg!\nWe will talk about the definition of \"Metaprogramming\": some best and some bad practices.\nAnd of course - live-coding!",
       "events": [
         {
@@ -47,7 +47,7 @@
     {
       "title": "Fall in Love With JS Decorators",
       "url": "https://www.youtube.com/watch?v=y0T9IRo-7zo&t=7524s",
-      "thumbnail": "https://danduh.me/assets/js-fest.jpeg",
+      "thumbnail": "/portfolio/js-fest.jpg",
       "description": "Decorators are one of the most underrated features in JS. At the same time is one of the most life-changing features. Once you get it your life will never be the same. We will start from basics definitions and go all the way to advanced real-life examples and use cases.",
       "events": [
         {
@@ -76,7 +76,7 @@
     {
       "title": "Full-Stuck RunTime type validation.",
       "url": "https://youtu.be/WbB0uSJ84Tk",
-      "thumbnail": "https://danduh.me/assets/ts-validation.jpeg",
+      "thumbnail": "/portfolio/ts-validation.jpg",
       "description": "How to ensure type validation of data coming from external sources? Let’s see how can we create a smooth developer experience with strong assurances of correctness at build-time.",
       "events": [
         {
@@ -92,7 +92,7 @@
     {
       "title": "The flexible way to adopt UX/UI in Angular app according to user’s permissions.",
       "url": "https://youtu.be/BqOKhIDrmoc",
-      "thumbnail": "https://danduh.me/assets/ng-talks.jpeg",
+      "thumbnail": "/portfolio/ng-talks.jpg",
       "description": "In many projects, there are authentication processes (more or less). A lot of “best practices” were written in all known technologies and so on, and so forth.\n\nBut what happens after the user made the login? After all, he by far cannot do everything. How to define what he can see and what not. What buttons he has the rights to click on, what to change, create and delete.",
       "events": [
         {
@@ -111,7 +111,7 @@
     {
       "title": "FrontEnd + DevOps = ❤️ (Workshop)",
       "url": "https://youtu.be/syI0ve6k0VE",
-      "thumbnail": "https://img.youtube.com/vi/syI0ve6k0VE/default.jpg",
+      "thumbnail": "/portfolio/devops-front.jpg",
       "events": [
         {
           "date": "27 March 2020",
@@ -136,7 +136,7 @@
     {
       "title": "The flexible way to adopt UX/UI in Angular app according to user’s permissions.",
       "url": "https://medium.com/@danduh/the-flexible-way-to-adopt-ux-ui-in-angular-app-according-to-users-permissions-b5db8cf05fbe",
-      "thumbnail": "https://danduh.me/assets/angular-permissions.webp",
+      "thumbnail": "/portfolio/angular-permissions.png",
       "description": "In many projects, there are authentication processes (more or less). A lot of “best practices” were written in all known technologies and so on, and so forth.\n\nBut what happens after the user made the login? After all, he by far cannot do everything. How to define what he can see and what not. What buttons he has the rights to click on, what to change, create and delete.",
       "events": [
         {
@@ -154,7 +154,7 @@
     {
       "title": "Metaprogramming in JavaScript/TypeScript Part #1",
       "url": "https://medium.com/@danduh/metaprogramming-javascript-typescript-part-1-descriptors-bc443d048fe9",
-      "thumbnail": "https://danduh.me/assets/ts-js.webp",
+      "thumbnail": "/portfolio/ts-js.png",
       "description": "Metaprogramming is the entire world of programming, in latest TS versions we have set of great new features that provide low-level hooks into code mechanics.\nLet's touch the tip of the iceberg!\nWe will talk about the definition of \"Metaprogramming\": some best and some bad practices.\nAnd of course - live-coding!",
       "events": [
         {
@@ -174,7 +174,7 @@
     {
       "title": "Docker, why and how?",
       "url": "https://sessionize.com/s/danduh/docker-why-and-how/26750",
-      "thumbnail": "https://danduh.me/assets/docker.webp",
+      "thumbnail": "/portfolio/docker.png",
       "description": "There are many great articles and talks for those who already use docker. I will appeal to those who not only do not know what docker is but are not sure whether they should know it.",
       "events": [
         {
@@ -191,7 +191,7 @@
     {
       "title": "GraphQl Federation: with big power comes huge responsibility.",
       "url": "https://sessionize.com/s/danduh/graphql-federation-with-big-power-comes-huge-respo/53487",
-      "thumbnail": "https://danduh.me/assets/graphql-fed.webp",
+      "thumbnail": "/portfolio/graphql-fed.png",
       "description": "The main use case for GraphQl Federation is MicroService APIs Scaling. This talk is not about it. We will talk about the advantages and disadvantages you can get with this architecture.\nWe will go over a check list of things you might meet in your journey to migrate from a monolith to MicroServices with GraphQl Federation, review some OpenSource tools you’ll probably need, and set of tools you might need to create for your specific case.",
       "events": [
         {
@@ -209,7 +209,7 @@
     {
       "title": "Go down the rabbit hole with Typescript Compiler API.",
       "url": "https://sessionize.com/s/danduh/go-down-the-rabbit-hole-with-typescript-compiler-a/47694",
-      "thumbnail": "https://danduh.me/assets/ts-compiler.webp",
+      "thumbnail": "/portfolio/ts-compiler.png",
       "description": "TypeScript has become very popular in the past few years. Many of us (developers) have a good understanding of the language except not many many of us really know how the compiler works internally. Understanding the internal mechanism of the TypeScript compiler and API will be extremely valuable if you need to improve the build pipeline, or develop custom tools.\nJoin Me On a Trip Down the Rabbit Hole to see the magic.",
       "events": [
         {

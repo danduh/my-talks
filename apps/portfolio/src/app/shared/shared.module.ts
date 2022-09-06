@@ -1,5 +1,5 @@
 import { NgModule } from "@angular/core";
-import { CommonModule } from "@angular/common";
+import { CommonModule, NgOptimizedImage, provideImgixLoader } from "@angular/common";
 import { MatMenuModule } from "@angular/material/menu";
 import { MatIconModule } from "@angular/material/icon";
 import { MatCardModule } from "@angular/material/card";
@@ -13,8 +13,10 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
 
 @NgModule({
-  providers: [ Service ],
+  providers: [ Service, provideImgixLoader("https://res.cloudinary.com/danduh/image/upload/") ],
   declarations: [],
+  imports: [ NgOptimizedImage ],
+
   exports: [
     HttpClientModule,
     MatMenuModule,
@@ -23,6 +25,7 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
     MatToolbarModule,
     MatGridListModule,
     MatChipsModule,
+
     CommonModule,
     FlexLayoutModule,
     BrowserAnimationsModule,
