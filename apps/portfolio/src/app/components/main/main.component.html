@@ -1,6 +1,6 @@
 <my-talks-about></my-talks-about>
 
-<section class="cards-section" id="upcoming-event">
+<section *ngIf="(upcomingVideos | async)?.length" class="cards-section" id="upcoming-event">
   <h3>Upcoming Events</h3>
   <my-talks-talks [video]="video" *ngFor="let video of upcomingVideos | async"></my-talks-talks>
 </section>

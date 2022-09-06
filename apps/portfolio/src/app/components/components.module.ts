@@ -1,5 +1,5 @@
 import { NgModule } from "@angular/core";
-import { CommonModule } from "@angular/common";
+import { CommonModule, NgOptimizedImage, provideCloudinaryLoader, provideImgixLoader } from "@angular/common";
 import { HeaderComponent } from "./header/header.component";
 import { AboutComponent } from "./about/about.component";
 import { MainComponent } from "./main/main.component";
@@ -22,11 +22,11 @@ import { ImagePipe } from "./image.pipe";
     TalksComponent,
     ArticlesComponent,
     SocialsComponent,
-
   ],
+  providers: [ provideCloudinaryLoader("https://res.cloudinary.com/danduh/") ],
   imports: [
     CommonModule, SharedModule, MatButtonModule,
-    RouterModule
+    RouterModule, NgOptimizedImage
   ],
   exports: [ HeaderComponent, FooterComponent, MainComponent ],
 })
