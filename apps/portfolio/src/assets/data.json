@@ -134,6 +134,25 @@
   ],
   "blogs": [
     {
+      "title": "Metaprogramming in JavaScript/TypeScript Part #2 (Decorators)",
+      "url": "https://medium.com/@danduh/metaprogramming-in-javascript-typescript-part-2-decorators-164eed3770b6",
+      "thumbnail": "/portfolio/medium-decorators.png",
+      "description": "Decorators an essential part of metaprogramming in both JS and TypeScript. Python (and beyond) developers are very familiar with this pattern. At this point, officially, decorators are not yet part of JavaScript.",
+      "events": [
+        {
+          "eventName": "Medium",
+          "date": "10 Sep 2022"
+        }
+      ],
+      "language": "English",
+      "tags": [
+        "typescript",
+        "javascript",
+        "decorators",
+        "metaprogramming"
+      ]
+    },
+    {
       "title": "The flexible way to adopt UX/UI in Angular app according to user’s permissions.",
       "url": "https://medium.com/@danduh/the-flexible-way-to-adopt-ux-ui-in-angular-app-according-to-users-permissions-b5db8cf05fbe",
       "thumbnail": "/portfolio/angular-permissions.png",
