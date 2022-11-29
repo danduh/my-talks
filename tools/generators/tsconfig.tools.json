@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": "tsconfig",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "declaration": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "rootDir": "deps-finder/",
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "strictNullChecks": false,
+    "target": "es2015",
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "deps-finder/**/*"
+  ],
+  "exclude": [
+    "src/*/template/**/*"
+  ]
+}

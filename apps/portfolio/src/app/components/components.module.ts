@@ -11,6 +11,7 @@ import { SocialsComponent } from "./socials/socials.component";
 import { MatButtonModule } from "@angular/material/button";
 import { RouterModule } from "@angular/router";
 import { ImagePipe } from "./image.pipe";
+import { MatLegacyChipsModule } from "@angular/material/legacy-chips";
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import { ImagePipe } from "./image.pipe";
   providers: [ provideCloudinaryLoader("https://res.cloudinary.com/danduh/") ],
   imports: [
     CommonModule, SharedModule, MatButtonModule,
-    RouterModule, NgOptimizedImage
+    RouterModule, NgOptimizedImage, MatLegacyChipsModule
   ],
   exports: [ HeaderComponent, FooterComponent, MainComponent ],
 })

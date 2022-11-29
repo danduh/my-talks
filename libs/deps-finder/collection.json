@@ -1,0 +1,10 @@
+{
+  "$schema": "../../node_modules/@nrwl/workspace",
+  "schematics": {
+    "deps-finder": {
+      "description": "Find and organize all npm dependencies used in application",
+      "factory": "./src/index#findAndOrganize",
+      "schema": "./src/schema.json"
+    }
+  }
+}

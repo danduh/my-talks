@@ -1,0 +1,15 @@
+{
+  "version": "0.0.5",
+  "name": "@danduh/deps-finder",
+  "builders": "./builders.json",
+  "author": "Daniel Ostrovsky",
+  "license": "MIT",
+  "schematics": "./collection.json",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc -p tsconfig.tools.json"
+  },
+  "dependencies": {
+    "ts-morph": "^17.0.1"
+  }
+}

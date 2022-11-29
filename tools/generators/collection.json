@@ -1,0 +1,9 @@
+{
+  "schematics": {
+    "deps-finder": {
+      "description": "Create package json for specific Application",
+      "factory": "./deps-finder/index#createPackageJson",
+      "schema": "./deps-finder/schema.json"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "deps-finder",
+  "title": "Find and organize all npm dependencies used in application",
+  "type": "object",
+  "properties": {
+    "project": {
+      "type": "string",
+      "description": "Project name to retrieve all dependencies in",
+      "x-prompt": "Project name to retrieve all dependencies in",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      }
+    },
+    "updateLocal": {
+      "type": "boolean",
+      "default": "true",
+      "description": "Will update local package.json in application folder (not in root)"
+    }
+  },
+  "required": [
+    "project"
+  ]
+}
