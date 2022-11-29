@@ -1,5 +1,44 @@
 {
   "upcomming": [
+    {
+      "title": "The flexible way to adopt UX/UI in Angular app according to user’s permissions.",
+      "url": "https://events.geekle.us/angular2/",
+      "thumbnail": "/portfolio/geekly-ng-summit.png",
+      "description": "In many projects, there are authentication processes (more or less). A lot of “best practices” were written in all known technologies and so on, and so forth.\n\nBut what happens after the user made the login? After all, he by far cannot do everything. How to define what he can see and what not. What buttons he has the rights to click on, what to change, create and delete.",
+      "events": [
+        {
+          "eventName": "Angular Global Summit'23",
+          "date": "14-15 February 2023",
+          "location": "Online"
+        }
+      ],
+      "language": "English",
+      "tags": [
+        "angular",
+        "typescript",
+        "ux/ui",
+        "authorization"
+      ]
+    },
+    {
+      "title": "Metaprogramming From 0 to 100",
+      "url": "https://www.angulartinyconf.com/",
+      "thumbnail": "/portfolio/angular-tiny-conf.jpeg",
+      "description": "Metaprogramming is the entire world of programming, in latest TS versions we have set of great new features that provide low-level hooks into code mechanics.\nLet's touch the tip of the iceberg!\nWe will talk about the definition of \"Metaprogramming\": some best and some bad practices.\nAnd of course - live-coding!",
+      "events": [
+        {
+          "eventName": "Angular Tiny Conf ",
+          "date": "02 December 2022",
+          "location": "Online"
+        }
+      ],
+      "language": "English",
+      "tags": [
+        "angular",
+        "typescript",
+        "metaprogramming"
+      ]
+    }
   ],
   "videos": [
     {
@@ -133,6 +172,26 @@
     }
   ],
   "blogs": [
+    {
+      "title": "How to use System Environment variables (process.env) in Angular application.",
+      "url": "https://medium.com/itnext/how-to-use-system-environment-variables-process-env-in-angular-application-b9e7104dcc98",
+      "thumbnail": "/portfolio/env-vars.png",
+      "description": "The environment variables setup with @angular/cli is great. Unless we need to pass to the app some values that we do not want to commit to the repository. In this article, I want to consider an approach that uses native Angular capabilities, such as builder and schematics.",
+      "events": [
+        {
+          "eventName": "Medium",
+          "date": "11 Sep 2022"
+        }
+      ],
+      "language": "English",
+      "tags": [
+        "typescript",
+        "javascript",
+        "Angular",
+        "schematics",
+        "builders"
+      ]
+    },
     {
       "title": "Metaprogramming in JavaScript/TypeScript Part #2 (Decorators)",
       "url": "https://medium.com/@danduh/metaprogramming-in-javascript-typescript-part-2-decorators-164eed3770b6",

@@ -1,25 +1,28 @@
 <mat-card class="event-card small">
   <mat-card-header>
     <mat-card-title>{{video.title}}</mat-card-title>
-    <mat-card-subtitle>Language: {{video.language}}</mat-card-subtitle>
+    <mat-card-subtitle>Language: {{video.language}}  <em *ngIf="showDate"> ({{video.events[0].date}})</em>
+    </mat-card-subtitle>
   </mat-card-header>
   <mat-card-content>
-    <img [rawSrc]="'w_200,h_120' + video.thumbnail"
+    <img [ngSrc]="'w_200,h_120' + video.thumbnail"
          class="video-thumbnail" alt="{{video.title}}"
          width="200" height="120">
-<!--    <div class="video-thumbnail" mat-card-image [ngStyle]="{'background-image': 'url(' + video.thumbnail + ')'}"></div>-->
+    <!--    <div class="video-thumbnail" mat-card-image [ngStyle]="{'background-image': 'url(' + video.thumbnail + ')'}"></div>-->
     <div class="video-description">
       <p>{{ video.description }}</p>
-      <p><em *ngFor="let ev of video.events"><b>{{ev.eventName}}</b> - {{ev.location}} / </em></p>
+      <p>
+        <em *ngFor="let ev of video.events"><b>{{ev.eventName}}</b> - {{ev.location}} / </em>
+      </p>
     </div>
   </mat-card-content>
-  <mat-chip-list class="mat-card-header">
+  <mat-chip-listbox class="mat-card-header">
     <mat-chip color="primary" *ngFor="let tag of video.tags">{{tag}}</mat-chip>
-  </mat-chip-list>
+  </mat-chip-listbox>
 
   <mat-card-actions *ngIf="!isBlog">
     <a [href]="video.url" target="_blank" mat-button>VIDEO</a>
-    <button mat-button>SHARE</button>
+    <!--    <button mat-button>SHARE</button>-->
   </mat-card-actions>
   <mat-card-actions *ngIf="isBlog">
     <a [href]="video.url" target="_blank" mat-button>READ</a>

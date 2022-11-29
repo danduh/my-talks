@@ -9,6 +9,7 @@ import { Video } from "../../types/videos";
 export class TalksComponent implements OnInit {
   @Input() video!: Video;
   @Input() isBlog = false;
+  @Input() showDate = false;
 
   constructor(){
   }
