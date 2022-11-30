@@ -4,7 +4,7 @@ plugins:
   - serverless-express
 provider:
   name: aws
-  runtime: nodejs12.x
+  runtime: nodejs16.x
   lambdaHashingVersion: 20201221
   memorySize: 192
   timeout: 10
