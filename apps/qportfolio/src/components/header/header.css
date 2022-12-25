@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 16px;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+  height: 64px;
+  justify-content: space-between;
+  background: #f5f5f5;
+  color: #000000de;
+}
+
+header .logo a {
+  display: inline-block;
+  padding: 10px 10px 7px 20px;
+}
+
+header ul {
+  margin: 0;
+  padding: 3px 10px 0 0;
+  list-style: none;
+  flex: 1;
+  text-align: right;
+}
+
+header li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+header .header-social .social{
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+header li a:hover {
+  text-decoration: underline;
+}

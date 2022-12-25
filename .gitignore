@@ -4,7 +4,8 @@
 /dist
 /tmp
 /out-tsc
-
+/**/dist
+dist
 # dependencies
 node_modules
 
@@ -39,3 +40,37 @@ testem.log
 Thumbs.db
 
 .angular
+# Build
+/lib
+/lib-types
+/server
+
+# Development
+
+# Cache
+.cache
+.mf
+.vscode
+.rollup.cache
+tsconfig.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Yarn
+.yarn/*
+!.yarn/releases

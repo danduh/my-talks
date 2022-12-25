@@ -1,0 +1,45 @@
+.content-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: var(--mtl-elevated-card-container-shape);
+  border-width: 0;
+  border-style: solid;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px -1px #000000e3 !important;
+  margin-bottom: 30px;
+  padding: 20px 30px;
+}
+
+.content-card .content-card-content {
+  display: inline-flex;
+  vertical-align: top;
+  line-height: 26px;
+  font-size: 18px;
+}
+
+.content-card .content-card-content-description {
+  flex: 1;
+  padding-left: 20px;
+  padding-right: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-card .content-card-header-title {
+  line-height: var(--mtl-typography-title-line-height);
+}
+
+.content-card .content-card-header-subtitle {
+  -webkit-font-smoothing: antialiased;
+  font-family: var(--my-talks-typography-font-family, Roboto, sans-serif);
+  font-size: var(--mtl-typography-subtitle2-font-size, 14px);
+  line-height: var(--mtl-typography-subtitle2-line-height);
+  color: var(--mtl-typography-subtitle2-color);
+}
+
+.content-card .content-card-content {
+  display: flex;
+  flex-direction: row;
+}
