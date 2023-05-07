@@ -1,9 +1,0 @@
-{
-  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
-  "version": 2,
-  "projects": {
-    "ng-meta": "apps/ng-meta",
-    "ng-meta-e2e": "apps/ng-meta-e2e",
-    "portfolio": "apps/portfolio"
-  }
-}

@@ -1,23 +1,77 @@
 {
   "upcomming": [
     {
-      "title": "The flexible way to adopt UX/UI in Angular app according to user’s permissions.",
-      "url": "https://events.geekle.us/angular2/",
-      "thumbnail": "/portfolio/geekly-ng-summit.png",
-      "description": "In many projects, there are authentication processes (more or less). A lot of “best practices” were written in all known technologies and so on, and so forth.\n\nBut what happens after the user made the login? After all, he by far cannot do everything. How to define what he can see and what not. What buttons he has the rights to click on, what to change, create and delete.",
+      "title": "Micro Frontend Architecture and Module Federation: Making the Right Choices for Your Project",
+      "url": "https://events.pinetool.ai/2928/#speakers/854474",
+      "thumbnail": "/portfolio/Angular_Tiny_Conference-2023_xsbk2s.png",
+      "description": "Let's take real-life examples and live coding to answer the following (but not limited to) questions:\n How we should I my divide apps and are there specific criteria to separate them? Is my project suitable for the Micro-Frontend at all? When should I use Micro-Frontend and when Module Federation? And some other questions.",
       "events": [
         {
-          "eventName": "Angular Global Summit'23",
-          "date": "14-15 February 2023",
+          "eventName": "DevDays Europe",
+          "date": "25 May 2023",
+          "location": "Vilnius"
+        }
+      ],
+      "language": "English",
+      "tags": [
+        "architecture",
+        "microfrontends"
+      ]
+    },
+    {
+      "title": "Is Qwik Really the World's First O(1) JS framework?",
+      "url": "https://events.pinetool.ai/2928/#speakers/854474",
+      "thumbnail": "/portfolio/Qwik-devdays_bullko.png",
+      "description": "Qwik is a new JavaScript framework that offers the fastest possible page load times. Qwik introduces a new concept to JavaScript: The Resumable Framework. The unique part of Qwik is not in what it does but in how it achieves its goals (C). Let's see on live coding sessions the difference between Qwik and other JS frameworks. ",
+      "events": [
+        {
+          "eventName": "DevDays Europe",
+          "date": "24 May 2023",
           "location": "Online"
         }
       ],
       "language": "English",
       "tags": [
-        "angular",
-        "typescript",
-        "ux/ui",
-        "authorization"
+        "qwik",
+        "architecture"
+      ]
+    },
+    {
+      "title": "Micro Frontend Architecture and Module Federation: Making the Right Choices for Your Project",
+      "url": "https://conference.microfrontends.cloud/speakers/daniel-ostrovsky",
+      "thumbnail": "/portfolio/microfrontends_jlzlc0.jpg",
+      "description": "Let's take real-life examples and live coding to answer the following (but not limited to) questions:\n How we should I my divide apps and are there specific criteria to separate them? Is my project suitable for the Micro-Frontend at all? When should I use Micro-Frontend and when Module Federation? And some other questions.",
+      "events": [
+        {
+          "eventName": "MICRO FRONTENDS",
+          "date": "12 June 2023",
+          "location": "Online"
+        }
+      ],
+      "language": "English",
+      "tags": [
+        "architecture",
+        "microfrontends"
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "title": "Micro Frontend Architecture and Module Federation: Making the Right Choices for Your Project",
+      "url": "https://www.youtube.com/watch?v=DyaYw_NdYEM",
+      "thumbnail": "/portfolio/FuguNM6WwAAf1Jk_zan9iv.jpg",
+      "description": "Let's take real-life examples and live coding to answer the following (but not limited to) questions:\nHow we should I my divide apps and are there specific criteria to separate them? Is my project suitable for the Micro-Frontend at all? When should I use Micro-Frontend and when Module Federation? And some other questions.",
+      "events": [
+        {
+          "eventName": "AngularTinyConf",
+          "date": "28 April 2023",
+          "location": "Online"
+        }
+      ],
+      "language": "English",
+      "tags": [
+        "architecture",
+        "microfrontends"
       ]
     },
     {
@@ -38,9 +92,27 @@
         "typescript",
         "metaprogramming"
       ]
-    }
-  ],
-  "videos": [
+    },
+    {
+      "title": "The flexible way to adopt UX/UI in Angular app according to user’s permissions.",
+      "url": "https://events.geekle.us/angular2/",
+      "thumbnail": "/portfolio/geekly-ng-summit.png",
+      "description": "In many projects, there are authentication processes (more or less). A lot of “best practices” were written in all known technologies and so on, and so forth.\n\nBut what happens after the user made the login? After all, he by far cannot do everything. How to define what he can see and what not. What buttons he has the rights to click on, what to change, create and delete.",
+      "events": [
+        {
+          "eventName": "Angular Global Summit'23",
+          "date": "14-15 February 2023",
+          "location": "Online"
+        }
+      ],
+      "language": "English",
+      "tags": [
+        "angular",
+        "typescript",
+        "ux/ui",
+        "authorization"
+      ]
+    },
     {
       "title": "Metaprogramming From 0 to 100",
       "url": "https://2022.ng-conf.org/session-2/typescript-meta-programming-from-0-to-100/",
