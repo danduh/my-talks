@@ -1,4 +1,5 @@
 {
+  "name": "ng-meta",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "sourceRoot": "apps/ng-meta/src",
@@ -6,9 +7,7 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
-      "outputs": [
-        "{options.outputPath}"
-      ],
+      "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/apps/ng-meta",
         "index": "apps/ng-meta/src/index.html",
@@ -16,13 +15,8 @@
         "polyfills": "apps/ng-meta/src/polyfills.ts",
         "tsConfig": "apps/ng-meta/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
-        "assets": [
-          "apps/ng-meta/src/favicon.ico",
-          "apps/ng-meta/src/assets"
-        ],
-        "styles": [
-          "apps/ng-meta/src/styles.scss"
-        ],
+        "assets": ["apps/ng-meta/src/favicon.ico", "apps/ng-meta/src/assets"],
+        "styles": ["apps/ng-meta/src/styles.scss"],
         "scripts": []
       },
       "configurations": {
@@ -77,19 +71,14 @@
       }
     },
     "lint": {
-      "executor": "@nrwl/linter:eslint",
+      "executor": "@nx/linter:eslint",
       "options": {
-        "lintFilePatterns": [
-          "apps/ng-meta/**/*.ts",
-          "apps/ng-meta/**/*.html"
-        ]
+        "lintFilePatterns": ["apps/ng-meta/**/*.ts", "apps/ng-meta/**/*.html"]
       }
     },
     "test": {
-      "executor": "@nrwl/jest:jest",
-      "outputs": [
-        "coverage/apps/ng-meta"
-      ],
+      "executor": "@nx/jest:jest",
+      "outputs": ["coverage/apps/ng-meta"],
       "options": {
         "jestConfig": "apps/ng-meta/jest.config.ts",
         "passWithNoTests": true

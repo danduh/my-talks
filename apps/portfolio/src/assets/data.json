@@ -1,5 +1,26 @@
 {
   "upcomming": [
+  ],
+  "videos": [
+    {
+      "title": "Metaprogramming From 0 to 100",
+      "url": "https://www.angulartinyconf.com/",
+      "thumbnail": "/portfolio/angular-tiny-conf.jpeg",
+      "description": "Metaprogramming is the entire world of programming, in latest TS versions we have set of great new features that provide low-level hooks into code mechanics.\nLet's touch the tip of the iceberg!\nWe will talk about the definition of \"Metaprogramming\": some best and some bad practices.\nAnd of course - live-coding!",
+      "events": [
+        {
+          "eventName": "Angular Tiny Conf ",
+          "date": "02 December 2022",
+          "location": "Online"
+        }
+      ],
+      "language": "English",
+      "tags": [
+        "angular",
+        "typescript",
+        "metaprogramming"
+      ]
+    },
     {
       "title": "The flexible way to adopt UX/UI in Angular app according to user’s permissions.",
       "url": "https://events.geekle.us/angular2/",
@@ -20,27 +41,6 @@
         "authorization"
       ]
     },
-    {
-      "title": "Metaprogramming From 0 to 100",
-      "url": "https://www.angulartinyconf.com/",
-      "thumbnail": "/portfolio/angular-tiny-conf.jpeg",
-      "description": "Metaprogramming is the entire world of programming, in latest TS versions we have set of great new features that provide low-level hooks into code mechanics.\nLet's touch the tip of the iceberg!\nWe will talk about the definition of \"Metaprogramming\": some best and some bad practices.\nAnd of course - live-coding!",
-      "events": [
-        {
-          "eventName": "Angular Tiny Conf ",
-          "date": "02 December 2022",
-          "location": "Online"
-        }
-      ],
-      "language": "English",
-      "tags": [
-        "angular",
-        "typescript",
-        "metaprogramming"
-      ]
-    }
-  ],
-  "videos": [
     {
       "title": "Metaprogramming From 0 to 100",
       "url": "https://2022.ng-conf.org/session-2/typescript-meta-programming-from-0-to-100/",
