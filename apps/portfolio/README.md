@@ -17,17 +17,11 @@ BUILD_TARGET=lambda nx build-ssr portfolio --configuration=production --verbose
 serverless deploy --stage production
 
 # JS Files
-aws s3 sync dist/apps/portfolio/browser/ s3://danduh-portfolio/js \
-      --delete --profile danduh \
-      --cache-control max-age=3600 --acl public-read
+aws s3 sync dist/apps/portfolio/browser/ s3://danduh-portfolio/js --delete --profile danduh --cache-control max-age=3600 --acl public-read
 
 # Assets
-aws s3 sync dist/apps/portfolio/browser/assets/ s3://danduh-portfolio/assets \
-      --delete --profile danduh \
-      --cache-control max-age=3600 --acl public-read
+aws s3 sync dist/apps/portfolio/browser/assets/ s3://danduh-portfolio/assets --delete --profile danduh --cache-control max-age=3600 --acl public-read
 
 #Invalidate CF
-aws cloudfront create-invalidation \
-    --distribution-id EGWRP34MG29P5 \
-    --paths "/" "/*" "/*.*" --profile danduh
+aws cloudfront create-invalidation --distribution-id EGWRP34MG29P5 --paths "/" "/*" "/*.*" --profile danduh
 ```

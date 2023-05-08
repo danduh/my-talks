@@ -3,7 +3,7 @@
     {
       "title": "Micro Frontend Architecture and Module Federation: Making the Right Choices for Your Project",
       "url": "https://events.pinetool.ai/2928/#speakers/854474",
-      "thumbnail": "/portfolio/Angular_Tiny_Conference-2023_xsbk2s.png",
+      "thumbnail": "/portfolio/Daniel_pr3e9t.png",
       "description": "Let's take real-life examples and live coding to answer the following (but not limited to) questions:\n How we should I my divide apps and are there specific criteria to separate them? Is my project suitable for the Micro-Frontend at all? When should I use Micro-Frontend and when Module Federation? And some other questions.",
       "events": [
         {
@@ -20,8 +20,8 @@
     },
     {
       "title": "Is Qwik Really the World's First O(1) JS framework?",
-      "url": "https://events.pinetool.ai/2928/#speakers/854474",
-      "thumbnail": "/portfolio/Qwik-devdays_bullko.png",
+      "url": "https://events.pinetool.ai/2928/#sessions/99593",
+      "thumbnail": "/portfolio/Daniel_Ostrovsky_jmc7yd.png",
       "description": "Qwik is a new JavaScript framework that offers the fastest possible page load times. Qwik introduces a new concept to JavaScript: The Resumable Framework. The unique part of Qwik is not in what it does but in how it achieves its goals (C). Let's see on live coding sessions the difference between Qwik and other JS frameworks. ",
       "events": [
         {
