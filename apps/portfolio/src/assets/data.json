@@ -1,6 +1,81 @@
 {
   "upcomming": [
     {
+      "title": "Easy MicroFrontend Adoption: How Schematics, Builders, and TS Compiler API Can Make It Easy",
+      "url": "https://sched.co/1MIxu",
+      "thumbnail": "/portfolio/LATAM-Schematics-MicroFrontends-2023_ou0d4v.png",
+      "description": "MicroFrontends are becoming more popular because they offer some advantages over traditional monolithic frontend applications. However, this adds complexity to the overall development and management of the entire system. This leads to the creation of a foundation that multiple teams might use. Let's see how schematic, builders, and Typescript Compiler API can make the creation of a foundation fast and easy and how it can help with MicroFrontend architecture adoption into existing projects.",
+      "events": [
+        {
+          "eventName": "Developers Week, Latin America",
+          "date": "21-22 June 2023",
+          "location": "Online"
+        }
+      ],
+      "language": "English",
+      "tags": [
+        "architecture",
+        "microfrontends"
+      ]
+    },
+    {
+      "title": "Micro Frontend Architecture and Module Federation: Making the Right Choices for Your Project",
+      "url": "https://vslive.com/Events/San-Diego-2023/Sessions/Wednesday/W01-Micro-Frontends-and-Module-Federation.aspx",
+      "thumbnail": "/portfolio/SanDiego-VS-Live-MicroFrontends-2023_jsd8yh.png",
+      "description": "The micro-frontend architecture is attracting more and more developers, and module federation is a great addition to this architectural pattern. And as with any new technology, new questions are raised. Let's take real-life examples and live coding to answer the following (but not limited to) questions:\n How we should I my divide apps and are there specific criteria to separate them? Is my project suitable for the Micro-Frontend at all? When should I use Micro-Frontend and when Module Federation? And some other questions.",
+      "events": [
+        {
+          "eventName": "Visual Studio Live",
+          "date": "7-11 Aug 2023",
+          "location": "San Diego"
+        }
+      ],
+      "language": "English",
+      "tags": [
+        "architecture",
+        "microfrontends"
+      ]
+    },
+    {
+      "title": "TypeScript Metaprogramming from 0 to 100",
+      "url": "https://vslive.com/Events/San-Diego-2023/Sessions/Wednesday/W21-Typescript-Meta-Programming-from-0-to-100.aspx",
+      "thumbnail": "/portfolio/SanDiego-LiveStudio0_Metta-Programming_in_TypeScript_ft0tpe.png",
+      "description": "When applications are getting bigger, some tools and features that help to manage this increasing complexity become more required. Let's check some of these features: composition/dependency Injection, runtime type assertions, reflection/mirroring and more, and see how we can use it in live coding session.",
+      "events": [
+        {
+          "eventName": "Visual Studio Live",
+          "date": "7-11 Aug 2023",
+          "location": "San Diego"
+        }
+      ],
+      "language": "English",
+      "tags": [
+        "angular",
+        "typescript",
+        "metaprogramming"
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "title": "Micro Frontend Architecture and Module Federation: Making the Right Choices for Your Project",
+      "url": "https://conference.microfrontends.cloud/speakers/daniel-ostrovsky",
+      "thumbnail": "/portfolio/microfrontends_jlzlc0.jpg",
+      "description": "Let's take real-life examples and live coding to answer the following (but not limited to) questions:\n How we should I my divide apps and are there specific criteria to separate them? Is my project suitable for the Micro-Frontend at all? When should I use Micro-Frontend and when Module Federation? And some other questions.",
+      "events": [
+        {
+          "eventName": "MICRO FRONTENDS",
+          "date": "12 June 2023",
+          "location": "Online"
+        }
+      ],
+      "language": "English",
+      "tags": [
+        "architecture",
+        "microfrontends"
+      ]
+    },
+    {
       "title": "Micro Frontend Architecture and Module Federation: Making the Right Choices for Your Project",
       "url": "https://events.pinetool.ai/2928/#speakers/854474",
       "thumbnail": "/portfolio/Daniel_pr3e9t.png",
@@ -20,7 +95,7 @@
     },
     {
       "title": "Is Qwik Really the World's First O(1) JS framework?",
-      "url": "https://events.pinetool.ai/2928/#sessions/99593",
+      "url": "https://www.youtube.com/watch?v=bxWpxbqxTO0&list=PLqYhGsQ9iSEqG4MhmIbZfDN-2Iq2knemb&index=10",
       "thumbnail": "/portfolio/Daniel_Ostrovsky_jmc7yd.png",
       "description": "Qwik is a new JavaScript framework that offers the fastest possible page load times. Qwik introduces a new concept to JavaScript: The Resumable Framework. The unique part of Qwik is not in what it does but in how it achieves its goals (C). Let's see on live coding sessions the difference between Qwik and other JS frameworks. ",
       "events": [
@@ -36,26 +111,6 @@
         "architecture"
       ]
     },
-    {
-      "title": "Micro Frontend Architecture and Module Federation: Making the Right Choices for Your Project",
-      "url": "https://conference.microfrontends.cloud/speakers/daniel-ostrovsky",
-      "thumbnail": "/portfolio/microfrontends_jlzlc0.jpg",
-      "description": "Let's take real-life examples and live coding to answer the following (but not limited to) questions:\n How we should I my divide apps and are there specific criteria to separate them? Is my project suitable for the Micro-Frontend at all? When should I use Micro-Frontend and when Module Federation? And some other questions.",
-      "events": [
-        {
-          "eventName": "MICRO FRONTENDS",
-          "date": "12 June 2023",
-          "location": "Online"
-        }
-      ],
-      "language": "English",
-      "tags": [
-        "architecture",
-        "microfrontends"
-      ]
-    }
-  ],
-  "videos": [
     {
       "title": "Micro Frontend Architecture and Module Federation: Making the Right Choices for Your Project",
       "url": "https://www.youtube.com/watch?v=DyaYw_NdYEM",
