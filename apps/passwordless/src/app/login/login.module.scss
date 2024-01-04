@@ -1,0 +1,41 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+.upper{
+    background: #0076ce;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    h1{
+        line-height: 160px;
+        font-size: 60px;
+        font-weight: 600;
+        color: white;
+        text-align: center;
+        img{
+            margin-top: 50px;
+        }
+    
+    }
+    span{
+        line-height: 50px;
+        color: white;
+        font-weight: 100;
+    }
+}
+.form-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    .input, .error {
+        margin-top: 10px;
+    }
+    .error{
+        color: red;
+    }
+}
